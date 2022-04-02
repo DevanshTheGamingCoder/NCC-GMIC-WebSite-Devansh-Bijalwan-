@@ -1,0 +1,113 @@
+h1{
+    color:rgb(0, 0, 0);
+    margin-left : 100px;
+    text-align: center;
+    font-style: italic;
+    font-weight: 1000;
+    font-size: 500%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 50%;
+    border: #2600ff;
+    border-style: groove;
+    justify-content: center;
+    background-color: #FA255E;
+}
+.h1 * {
+    border-style: groove; 
+}
+
+.header{
+    background-color:#C39EA0;
+    display:flex;
+    justify-content:space-between;
+}
+
+.grid{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.footer{
+    display:flex;
+    justify-content: flex-end;
+}
+h2{
+    text-align:center;
+    background-color: #b3ff00;
+    font-family: 'Lobster', cursive;
+    font-size: x-large;
+    border: #ff0000;
+    border-width: 1ch;
+    border-radius: 50%;
+    border-style: groove;
+    margin-left: 20%;
+    margin-right: 20%;  
+    justify-self: unset;
+}
+p{
+    text-align: center;
+    background-color: rgb(229, 255, 0);
+    font: 1em sans-serif;
+    font-size: 200%;
+    font-variant: small-caps;
+    border: #ffae00;
+    border-width: 1pc;
+    border-radius: 15%;
+    border-style: groove;
+    margin-left: 20%;
+    margin-right: 20%;  
+
+
+}
+body{
+    background-color:#e5ffff
+}
+a:link{
+    color:white;
+    font-family: 'Lobster', cursive;
+}
+
+a:visited{
+    color:rgb(1, 95, 17);
+}
+
+a:hover{
+    color:red;
+}
+
+a:active{
+    color: yellow;
+}
+
+.menu{
+    margin-right: 30px;
+}
+
+.menu a{
+    padding-left: 20px;
+    padding-top: 0PX;
+}
+
+
+.item{
+    position:relative;
+   
+}
+
+.item p{
+    position: absolute;
+    top:100%;
+    left: 30%;
+   margin-left: -110px;
+    opacity:1;
+    font-family: 'Lobster', cursive;
+    font-size: 30px;                                                                                                                                                                                                                                                  
+    
+}
+
+
+
+.item{
+    margin: 100px;
+    margin-top: 10px;
+}
