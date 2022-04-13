@@ -91,11 +91,13 @@ a:active{
 
 .item{
     position:relative;
-   
+    justify-content: center;
+    padding: 6%;
 }
 
 .item p{
     position: absolute;
+    
     top:100%;
     left: 30%;
    margin-left: -110px;
